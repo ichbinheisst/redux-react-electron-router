@@ -1,0 +1,22 @@
+.containerHome{
+
+    display: grid;
+     place-content: center;
+     
+}
+
+.pictureBox{
+ display: flex;
+ align-self: center;
+ flex-direction: column;
+ padding: 20px;
+ opacity: 0;
+ animation: showUp 2s forwards ease-in;
+}
+
+
+@keyframes showUp {
+    to{
+        opacity:1 ;
+    }
+}
